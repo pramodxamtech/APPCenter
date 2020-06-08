@@ -1,0 +1,176 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\GitTutorial\\AppTest\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation.Android\\AppCenterImplementation.Android.csproj": {}
+  },
+  "projects": {
+    "E:\\GitTutorial\\AppTest\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation.Android\\AppCenterImplementation.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitTutorial\\AppTest\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation.Android\\AppCenterImplementation.Android.csproj",
+        "projectName": "AppCenterImplementation.Android",
+        "projectPath": "E:\\GitTutorial\\AppTest\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation.Android\\AppCenterImplementation.Android.csproj",
+        "packagesPath": "C:\\Users\\PRAMODPC\\.nuget\\packages\\",
+        "outputPath": "E:\\GitTutorial\\AppTest\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PRAMODPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "E:\\GitTutorial\\AppTest\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation.csproj": {
+                "projectPath": "E:\\GitTutorial\\AppTest\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.ViewPager": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          }
+        }
+      }
+    },
+    "E:\\GitTutorial\\AppTest\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitTutorial\\AppTest\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation.csproj",
+        "projectName": "AppCenterImplementation",
+        "projectPath": "E:\\GitTutorial\\AppTest\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation.csproj",
+        "packagesPath": "C:\\Users\\PRAMODPC\\.nuget\\packages\\",
+        "outputPath": "E:\\GitTutorial\\AppTest\\AppCenterImplementation\\AppCenterImplementation\\AppCenterImplementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PRAMODPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
