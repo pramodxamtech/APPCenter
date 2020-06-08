@@ -15,6 +15,7 @@ namespace AppCenterImplementation.Views
     [DesignTimeVisible(false)]
     public partial class NewItemPage : ContentPage
     {
+        public int n;
         public Item Item { get; set; }
 
         public NewItemPage()
@@ -37,11 +38,17 @@ namespace AppCenterImplementation.Views
                 MessagingCenter.Send(this, "AddItem", Item);
                 await Navigation.PopModalAsync();
                 Analytics.TrackEvent("Save_Clicked");
+                throw FormatException();
             }
             catch (Exception ex)
             {
                 Crashes.TrackError(ex);
             }
+        }
+
+        private Exception FormatException()
+        {
+            throw new NotImplementedException();
         }
 
         async void Cancel_Clicked(object sender, EventArgs e)
